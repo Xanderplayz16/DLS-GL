@@ -5,7 +5,7 @@ https://xanderplayz16.github.io/DLS-GL/index.html
 # To build yourself
 Go to file/build settings and set the build to use WebGL.
 
-Go to edit/project settings/player/publishing settings and set Compression Format to Disabled. // This fixes some things.
+Go to edit/project settings/player/publishing settings and set the Decompression fallback checkbox to checked. // This fixes some things.
 
 Now go to file/build settings/WebGL/ and set your settings. I personally build for speed and I use ETC2 in the build above. // When built for speed, the files are 42 megabytes.
 
